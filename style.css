@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Poppins:wght@100;200;300;400;500;600;700;800 ;900&display=intercambio');
+header{
+    display: flex;
+}
+body{
+    background-color: #4991E1;
+}
+
+#logo{
+    width: 4%
+}
+.barra li{
+font-family: "Montserrat";
+font-weight: 700;
+display: inline;
+padding: 40px;
+/*falta poner color de link*/
+}
+
+.barra{
+    margin-left: 970px;
+}
+.buscador li{
+    font-family: "Montserrat";
+    font-weight: 600;
+    display: inline;
+    margin-left: 130px;
+    padding: 12px 80px;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.10);
+}
+
+a:link{
+    text-decoration: none;
+    color: #4991E1;
+}
+
+a:visited{
+    text-decoration: none;
+    color:#4991E1
+}
+
+a:hover{
+    color: white;
+}
+
+#linkedin:link{
+    text-decoration:none;
+    color: white;
+}
+#linkedin:visited{
+    text-decoration:none;
+    color: white;
+}
+#linkedin:hover{
+    color: #FF248B;
+    text-decoration: none;
+}
+
+#instagram:link{
+    text-decoration:none;
+    color: white;
+}
+#instagram:visited{
+    text-decoration:none;
+    color: white;
+}
+#instagram:hover{
+    color: #FF248B;
+    text-decoration: none;
+}
+#boton1:hover{
+    background-color:#FF248B;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.20);
+}
+
+#boton2:hover{
+    background-color: #FF248B;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.20);
+}
+
+#boton3:hover{
+    background-color: #FF248B;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.20);
+}
+
+#avatar{
+    width: 600px;
+    margin: auto;
+    display: block;
+}
+
+h1{
+    font-family: "Montserrat";
+    font-weight: 800;
+    text-align: center;
+    font-size: 80px;
+    color: white; 
+    margin-top: 2px;
+}
+#diseñointegral{
+    font-family: "Montserrat";
+    font-weight: 500;
+    text-align: center;
+    font-size: 40px;
+    color: white; 
+    margin-left: 0px;
+}
+h3{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    margin-left: 60px;
+}
+p{
+    color:white;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family:"poppins";
+    font-weight: 400;
+    text-align: justify;
+}
+#cv{
+    width: 500px;
+    margin: auto;
+    display: block;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.30);
+}
